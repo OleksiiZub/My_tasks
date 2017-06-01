@@ -24,7 +24,7 @@ public class FactorialTest {
     public void factorialNegativ(){
         factorial.factor(-2);
     }
-
+// hz what the method
     @Test
     public void factorialNeNull(){
         assertNotNull(new Factorial());
