@@ -9,8 +9,17 @@ public class Phibonachi {
         }
         return fibonachi(n-1)+fibonachi(n-2);
     }
-    
+
+    public static void posledovatelnost(int x) {
+        int n = x;
+        for (int i = 0; i < n+1; i++) {
+            System.out.print(fibonachi(i) + " ");
+        }
+    }
+
     public static void main(String[] args) {
         System.out.println(fibonachi(20));
+        posledovatelnost(20);
+
     }
 }
